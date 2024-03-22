@@ -1,10 +1,10 @@
 node default {
 }
 
-node 'instance1' {
+node 'rocky1.virtualbox.com' {
   include role::master
 }
 
-node 'instance2' {
+node 'rocky2.virtualbox.com' {
   include role::web_server
 }
